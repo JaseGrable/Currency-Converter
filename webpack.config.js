@@ -13,6 +13,7 @@ module.exports = {
     },                           // new line
     devtool: 'eval-source-map',  
   plugins: [
+    new Dotenv(),
     new CleanWebpackPlugin({
         verbose: true
       }),
@@ -20,8 +21,7 @@ module.exports = {
       title: 'Shape Tracker',
       template: './src/index.html',
       inject: 'body',
-    })
-    new Dotenv()
+    }),
   ],
   module: {
     rules: [
