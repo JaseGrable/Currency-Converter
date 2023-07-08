@@ -1,1 +1,0 @@
-GET https://v6.exchangerate-api.com/v6/API_KEY/latest/USD
