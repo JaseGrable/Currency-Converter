@@ -44,7 +44,7 @@ $ code .
 ```
 
 - In the .env file, you will place the API key by using this method API_KEY={Your_API_KEY_FROM_YOUR_DASHBOARD}.
-- Save the file and don't forget to add .env to your .gitignorefile so your API Key isn't shared with internet strangers.
+- Save the file and don't forget to add .env to your .gitignorefile.
 
 #### To install the required environment after cloning from the above link:
 
