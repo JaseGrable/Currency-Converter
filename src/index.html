@@ -9,7 +9,16 @@
     <p>Currency Converter</p>
     <p>Below you will find a form that allows you to convert USD into other currencies from around the world. This form provides up to date information for most major foreign currencies other than Korean Won.</p>
     <form id="dollarInput">
-
+        <div class ="container">
+            <p>Please input the amount of US dollars you would like to convert:</p>
+            <input class="amount" id="USD" type ="number" required> 
+        </div>
+        <div class="container">
+            <label for="foreignCurrency">Please choose the currency you would like to convert:</label>
+            <select class="foreignCurrency" id="foreignCurrency">
+                <option value="choose">Choose:</option>
+            </select>
+        </div>
     </form>
     <p id="currencyOutput"></p>
 </body>
