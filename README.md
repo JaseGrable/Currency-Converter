@@ -21,6 +21,8 @@
 
 ## Description
 
+This project was built for the Epicodus bootcamp during API week. ExchangeRate-API is called in the javascript portion of this code to convert USD to several different currencies. More currencies may be added later.
+
 ## Setup/Installation Requirements
 
 #### To access the code in a source code editor of your desire:
