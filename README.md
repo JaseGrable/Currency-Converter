@@ -33,14 +33,13 @@
 - Open the code with the code editor of your choice.
 - To test the code use the command `npm test`
 
-````
+```
 - After cloning the repo to your desired location go to https://exchangerate-api.com/ and sign up for a free account.
 - Once you have a free account you can access your API Key in your dashboard.
-- Go back to your gitBash and do the following steps.
-```bash
+- Go back to your gitBash and do the following steps:
 $ touch .env
 $ code .
-````
+```
 
 - In the .env file, you will place the API key by using this method API_KEY={Your_API_KEY_FROM_YOUR_DASHBOARD}.
 - Save the file and don't forget to add .env to your .gitignorefile so your API Key isn't shared with internet strangers.
